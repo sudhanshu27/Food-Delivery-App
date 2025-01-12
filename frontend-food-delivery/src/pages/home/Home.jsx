@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Home.css";
 import Header from "../../components/header/Header";
-import ExploreMenu from "../../components/ExploreMenu/ExploreMenu.jsx";
-import FoodDisplay from "../../components/foodDisplay/FoodDisplay.jsx";
-import AppDownload from "../../components/appDownload/AppDownload.jsx";
+import ExploreMenu from "../../components/exploreMenu/ExploreMenu";
+import FoodDisplay from "../../components/foodDisplay/FoodDisplay";
+import AppDownload from "../../components/appDownload/AppDownload";
 
 const Home = () => {
   const [category, setCategory] = useState("All");
