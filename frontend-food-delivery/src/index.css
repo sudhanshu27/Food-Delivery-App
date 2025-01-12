@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.app {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 240, 245);
+  /* position: fixed;
+  z-index: 1; */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
