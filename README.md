@@ -9,4 +9,6 @@ order tracking.
 * Integrated `Mongoose` for database connectivity and `Multer` for efficient image uploads in the backend.
 * Tech Stack: `HTML`, `CSS`, `JavaScript`, `ReactJs`, `NodeJs`, `ExpressJs`, `MongoDB`
 
-***Live Link: https://food-delivery-app-frontend-2h4e.onrender.com/***
+***Frontend live: https://food-delivery-app-frontend-2h4e.onrender.com/***
+
+***Admin Dashboard live: https://food-delivery-app-backend-bauf.onrender.com***
